@@ -30,7 +30,7 @@ for q in queries:
 
 #to get the relevant queries, with their dbpedia page and relevance score
 #[code, something, dbpedia page, relevance score]
-qrels = list(open("qrels.txt", "r"))
+qrels = list(open("qrels-v2.txt", "r"))
 qrelsplit = []
 for q in qrels:
     qs = q.split("\t")
